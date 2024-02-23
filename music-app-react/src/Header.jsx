@@ -77,44 +77,34 @@ function Header() {
             id="songSearch"
             placeholder="Search for a song..."
           />
-          <button id="searchButton" onClick={searchSong}>
+          <button className="frosted-glass-button" onClick={searchSong}>
             Search
           </button>
         </div>
 
-        <nav>
+        <navbar>
           <ul>
-            <li>
-              <a href="popular-samples_index.html">
-                <button className="button">Popular Samples</button>
-              </a>
-            </li>
+            <a href="popular-samples_index.html" className="nav-button">
+              <button className="button">Popular Samples</button>
+            </a>
 
-            <li>
-              <a href="genres_index.html">
-                <button className="button">Genres</button>
-              </a>
-            </li>
+            <a href="genres_index.html" className="nav-button">
+              <button className="button">Genres</button>
+            </a>
 
-            <li>
-              <a href="playlist_index.html">
-                <button className="button">Artists ID Lookup</button>
-              </a>
-            </li>
+            <a href="playlist_index.html" className="nav-button">
+              <button className="button">Artists ID Lookup</button>
+            </a>
 
-            <li>
-              <a href="open_ai_index.html">
-                <button className="button">Find Samples</button>
-              </a>
-            </li>
+            <a href="open_ai_index.html" className="nav-button">
+              <button className="button">Find Samples</button>
+            </a>
 
-            <li>
-              <a href="create_account_index.html">
-                <button className="button">Create an Account</button>
-              </a>
-            </li>
+            {/* <a href="create_account_index.html">
+              <button className="button">Create an Account</button>
+            </a> */}
           </ul>
-        </nav>
+        </navbar>
       </header>
       {formVisible && (
         <div id="userForm" className="your-form-class">

@@ -88,15 +88,15 @@ const Genres = () => {
           )}
         </div>
         <ul id="genreList">
-          <li onClick={() => setSelectedGenre("rock")}>
-            <button>Rock</button>
-          </li>
-          <li onClick={() => setSelectedGenre("hiphop")}>
-            <button>Hiphop</button>
-          </li>
-          <li onClick={() => setSelectedGenre("jazz")}>
-            <button>Jazz</button>
-          </li>
+          <a onClick={() => setSelectedGenre("rock")}>
+            <button className="button">Rock</button>
+          </a>
+          <a onClick={() => setSelectedGenre("hiphop")}>
+            <button className="button">Hiphop</button>
+          </a>
+          <a onClick={() => setSelectedGenre("jazz")}>
+            <button className="button">Jazz</button>
+          </a>
         </ul>
       </main>
     </div>

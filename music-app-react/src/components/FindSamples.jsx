@@ -52,12 +52,14 @@ const FindSamples = () => {
       <label htmlFor="songInput">Enter a song name:</label>
       <input
         type="text"
-        id="songInput"
+        id="songSearch"
         placeholder="e.g., 'Gold Digger'"
         value={songInput}
         onChange={(e) => setSongInput(e.target.value)}
       />
-      <button onClick={findSampledMusic}>Find Sampled Music</button>
+      <button className="frosted-glass-button" onClick={findSampledMusic}>
+        Find Sampled Music
+      </button>
       <p id="result">{result}</p>
     </div>
   );

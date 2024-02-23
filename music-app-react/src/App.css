@@ -5,6 +5,119 @@
   text-align: center;
 }
 
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #70aaff,
+    #00c2fd,
+    #00d3e7,
+    #65dec8,
+    #a6e5af,
+    #aadaa3,
+    #acce98,
+    #adc38f,
+    #81a77f,
+    #598a6f,
+    #366d5f,
+    #15514e
+  );
+}
+
+img {
+  max-width: 300px;
+}
+
+.navbar {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .nav-button {
+  box-shadow: 0 3px 10px rgba(0, 208, 236, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(1px);
+  margin: 0 5px;
+  padding: 10px;
+} */
+
+#songSearch {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Adjust the alpha (4th value) for transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+  border: none;
+  margin: 4px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Add a smooth transition effect */
+}
+
+#songSearch:hover {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Adjust the alpha on hover for a subtle change */
+}
+
+/* CSS for Frosted Glass Button */
+.frosted-glass-button {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Adjust the alpha (4th value) for transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Add a smooth transition effect */
+}
+
+.frosted-glass-button:hover {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Adjust the alpha on hover for a subtle change */
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0);
+  color: blueviolet;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+
+.button:hover {
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(238, 103, 238);
+  border-right: 2px solid rgb(238, 103, 238);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
