@@ -74,7 +74,7 @@ function Header() {
         <div className="search container">
           <input
             type="text"
-            id="songSearch"
+            id="songSearch1"
             placeholder="Search for a song..."
           />
           <button className="frosted-glass-button" onClick={searchSong}>
@@ -82,7 +82,7 @@ function Header() {
           </button>
         </div>
 
-        <navbar>
+        <nav>
           <ul>
             <a href="popular-samples_index.html" className="nav-button">
               <button className="button">Popular Samples</button>
@@ -104,7 +104,7 @@ function Header() {
               <button className="button">Create an Account</button>
             </a> */}
           </ul>
-        </navbar>
+        </nav>
       </header>
       {formVisible && (
         <div id="userForm" className="your-form-class">

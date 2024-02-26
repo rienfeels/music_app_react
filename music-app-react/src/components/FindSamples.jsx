@@ -52,7 +52,7 @@ const FindSamples = () => {
       <label htmlFor="songInput">Enter a song name:</label>
       <input
         type="text"
-        id="songSearch"
+        id="songSearch2"
         placeholder="e.g., 'Gold Digger'"
         value={songInput}
         onChange={(e) => setSongInput(e.target.value)}
